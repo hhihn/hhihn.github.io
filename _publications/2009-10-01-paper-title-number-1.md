@@ -14,14 +14,14 @@ Joining multiple decision-makers together is a powerful way to obtain more sophi
 
 ## Recommended BibTex citation:
 
-@Article{hihn2020specialization,
-  author   = {Hihn, Heinke and Braun, Daniel A.},
-  title    = {Specialization in Hierarchical Learning Systems},
-  journal  = {Neural Processing Letters},
-  year     = {2020},
-  volume   = {52},
-  number   = {3},
-  pages    = {2319--2352},
-  issn     = {1573-773X},
-  url      = {https://doi.org/10.1007/s11063-020-10351-3},
-}
+    @Article{hihn2020specialization,
+      author   = {Hihn, Heinke and Braun, Daniel A.},
+      title    = {Specialization in Hierarchical Learning Systems},
+      journal  = {Neural Processing Letters},
+      year     = {2020},
+      volume   = {52},
+      number   = {3},
+      pages    = {2319--2352},
+      issn     = {1573-773X},
+      url      = {https://doi.org/10.1007/s11063-020-10351-3},
+    }

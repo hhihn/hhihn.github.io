@@ -12,11 +12,11 @@ Traditional pain assessment approaches ranging from self-reporting methods, to o
 [Download paper here](https://www.frontiersin.org/articles/10.3389/fphys.2021.720464/pdf)
 
 ### Recommended BibTex citation: 
-@Article{thiam2021multi,
-  author    = {Thiam, Patrick and Hihn, Heinke and Braun, Daniel A and Kestler, Hans A and Schwenker, Friedhelm},
-  title     = {Multi-Modal Pain Intensity Assessment Based on Physiological Signals: A Deep Learning Perspective},
-  journal   = {Frontiers in Physiology},
-  year      = {2021},
-  volume    = {12},
-  publisher = {Frontiers Media SA},
-}
+    @Article{thiam2021multi,
+      author    = {Thiam, Patrick and Hihn, Heinke and Braun, Daniel A and Kestler, Hans A and Schwenker, Friedhelm},
+      title     = {Multi-Modal Pain Intensity Assessment Based on Physiological    Signals: A Deep Learning Perspective},
+      journal   = {Frontiers in Physiology},
+      year      = {2021},
+      volume    = {12},
+      publisher = {Frontiers Media SA},
+    }

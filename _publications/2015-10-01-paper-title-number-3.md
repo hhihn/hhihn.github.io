@@ -15,11 +15,11 @@ Information-theoretic bounded rationality describes utility-optimizing decision-
 [Find the preprint on arxiv here](https://arxiv.org/pdf/1907.11452.pdf)
 
 ### Recommended BibTex citation: 
-@InProceedings{hihn2019information,
-  author       = {Hihn, Heinke and Gottwald, Sebastian and Braun, Daniel A},
-  title        = {An information-theoretic on-line learning principle for specialization in hierarchical decision-making systems},
-  booktitle    = {2019 IEEE 58th Conference on Decision and Control (CDC)},
-  year         = {2019},
-  pages        = {3677--3684},
-  organization = {IEEE},
-}
+    @InProceedings{hihn2019information,
+      author       = {Hihn, Heinke and Gottwald, Sebastian and Braun, Daniel A},
+      title        = {An information-theoretic on-line learning principle for     specialization in hierarchical decision-making systems},
+      booktitle    = {2019 IEEE 58th Conference on Decision and Control (CDC)},
+      year         = {2019},
+      pages        = {3677--3684},
+      organization = {IEEE},
+    }
