@@ -2,19 +2,19 @@
 title: "Specialization in Hierarchical Learning Systems"
 collection: publications
 permalink: https://doi.org/10.1007/s11063-020-10351-3
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
+excerpt: 'We show how specialization in hierarchical learning systems facilitates Meta-Learning.'
+date: 2020-09-05
 venue: 'Neural Processing Letters (52)'
 paperurl: 'https://doi.org/10.1007/s11063-020-10351-3'
 citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 
-Abstract:
+# Abstract:
 Joining multiple decision-makers together is a powerful way to obtain more sophisticated decision-making systems, but requires to address the questions of division of labor and specialization. We investigate in how far information constraints in hierarchies of experts not only provide a principled method for regularization but also to enforce specialization. In particular, we devise an information-theoretically motivated on-line learning rule that allows partitioning of the problem space into multiple sub-problems that can be solved by the individual experts. We demonstrate two different ways to apply our method: (i) partitioning problems based on individual data samples and (ii) based on sets of data samples representing tasks. Approach (i) equips the system with the ability to solve complex decision-making problems by finding an optimal combination of local expert decision-makers. Approach (ii) leads to decision-makers specialized in solving families of tasks, which equips the system with the ability to solve meta-learning problems. We show the broad applicability of our approach on a range of problems including classification, regression, density estimation, and reinforcement learning problems, both in the standard machine learning setup and in a meta-learning setting.
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
+[Download paper here](https://link.springer.com/content/pdf/10.1007/s11063-020-10351-3.pdf)
 
-Recommended BibTex citation:
+## Recommended BibTex citation:
 
 @Article{hihn2020specialization,
   author   = {Hihn, Heinke and Braun, Daniel A.},
