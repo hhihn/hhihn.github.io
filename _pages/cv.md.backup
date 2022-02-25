@@ -34,37 +34,7 @@ Research Interests
 
 Publications
 ======
-\section*{Full List of Publications}
-\subsection*{Workshop Contributions}
-\begin{itemize}
-\item[\citep{hihn2018bounded}] \textbf{Hihn, Heinke}, Gottwald, Sebastian, and Daniel A. Braun (2018). “Bounded rational decision-making with
-adaptive neural network priors.” In: \textit{IAPR Workshop on Artificial
-Neural Networks in Pattern Recognition.} Springer, pp. 213–225. URL: \url{https://link.springer.com/chapter/10.1007/978-3-319-99978-4_17}
-\item[\citep{hihn2020hierarchical}] \textbf{Hihn, Heinke} and Daniel A Braun (2020a). “Hierarchical Expert Networks for Meta-Learning.” In: \textit{4th ICML Workshop on Life Long Machine Learning.} URL: \url{https://openreview.net/pdf?id=vADVUh-NI1}
-\item[\citep{hihn2020hierarchical}] \textbf{Hihn, Heinke} and Daniel A Braun (2020a). “Mixture-of-Variational-Experts for Continual Learning.” In: \textit{1st ICLR Workshop on Agents in Open Ended Learning.} \url{https://arxiv.org/pdf/2110.12667.pdf}
-\end{itemize}
 
-\subsection*{Conference Contributions}
-\begin{itemize}
-\item[\citep{hihn2019information}] \textbf{Hihn, Heinke}, Gottwald, Sebastian, and Daniel A. Braun (2019). “An information-theoretic on-line learning principle for
-specialization in hierarchical decision-making systems.” In: 2019
-IEEE 58th Conference on Decision and Control (CDC). IEEE, pp. 3677–
-3684. \url{https://ieeexplore.ieee.org/abstract/document/9029255} \\ Impact Factor: 1.30 (2021)
-%\item[\citep{hihn2022mixture}] \textbf{Hihn, Heinke} and Daniel A Braun (2022). “Mixture-of-Variational-Experts for Continual Learning.” In: \textit{Northern Lights Deep Learning Conference.}
-\end{itemize}
-
-\subsection*{Journal Articles}
-\begin{itemize}
-\item[\citep{hihn2020specialization}] \textbf{Hihn, Heinke} and Daniel A. Braun (2020b). “Specialization in Hierarchical Learning Systems.” In: \textit{Neural Processing Letters} 52.3,
-pp. 2319–2352. issn: 1573-773X. doi: 10.1007/s11063-020-10351-3. url: \url{https://doi.org/10.1007/s11063-020-10351-3} \\ Impact Factor: 2.884 (2020)
-\item[\citep{thiam2021multi}] Thiam, Patrick, \textbf{Heinke Hihn}, et al. (2021). “Multi-Modal Pain Intensity Assessment
-Based on Physiological Signals: A Deep Learning Perspective.”
-In: \textit{Frontiers in Physiology 12}. \\ Impact Factor: 4.134 (2021)
-\item[\citep{hihn2022diverse}] \textbf{Hihn, Heinke} and Braun, Daniel A. (2022). “Hierarchically Structured Task Agnostic Continual Learning.” 
-In: \textit{Machine Learning} Impact Factor: 3.693 (2020)
-\item[\citep{hihn2022diverse}] \textbf{Hihn, Heinke} and Braun, Daniel A. (2022). “TBD.”
-In: \textit{TBD}.
-\end{itemize}
 Talks
 ======
   <ul>{% for post in site.talks %}
