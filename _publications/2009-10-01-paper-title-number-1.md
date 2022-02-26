@@ -1,7 +1,6 @@
 ---
 title: "Specialization in Hierarchical Learning Systems"
 collection: publications
-permalink: https://doi.org/10.1007/s11063-020-10351-3
 excerpt: 'We show how specialization in hierarchical learning systems facilitates Meta-Learning.'
 date: 2020-09-05
 venue: 'Neural Processing Letters'

@@ -11,27 +11,41 @@ redirect_from:
 
 Education
 ======
-* B.Sc. Computer Science with a minor in Political Sciences
-* M.S. in Computer Science with a minor in Psychology
+* 2008: Abitur 
+* 2009-2013: B.Sc. in Computer Science (Freiburg University)
+	* minor in Political Sciences 
+	* Bachelor Thesis in Robotics
+* 2013-2016: M.Sc. in Computer Science (Ulm University)
+	* minor in Psychology 
+	* Master Thesis in Affective Computing
+* since 2016: pursuing PhD in Machine Learning
+	* Topic: Hierarchical Models for efficient Adaptation in Machine Learning Systems
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Since 2016-12-015: Research Assistant at Ulm University
+  * Supervisor: Daniel A. Braun
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
+* 2026-05-01 - 2016-11-30: Software Engineer at BitTwister IT, Ulm
+	* Developing IT Infrastructure for Machine Learning applications
+ 
 Research Interests
 ======
+* Reinforcement Learning
 * Meta-Learning
 * Continual Learning
 * Self-supervised Learning
 
-Publications
+Technical Skills
 ======
+* Tensorflow
+* Python
+* C/C++
+* Matlab
 
+Methodical Skills
+======
+* Neural Networks
+* Bayesian Hierarchical Modeling
+* Variational Methods
+* Monte-Carlo Methods

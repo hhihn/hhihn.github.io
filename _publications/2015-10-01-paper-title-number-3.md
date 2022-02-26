@@ -1,11 +1,9 @@
 ---
 title: "An information-theoretic on-line learning principle for specialization in hierarchical decision-making systems"
 collection: publications
-permalink: /publication/2015-10-01-paper-title-number-3
 excerpt: 'Specialization in machine learning for information-efficient decision-making.'
 date: 2019-12-13
 venue: 'IEEE 58th Conference on Decision and Control (CDC)'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
 
 ---
 ## Abstract
