@@ -2,7 +2,7 @@
 title: "Learning Robots"
 collection: teaching
 type: "Master Project"
-permalink: /teaching/2014-spring-teaching-1
+permalink: /teaching/learning_robots
 venue: "Ulm University"
 date: 2014-01-01
 location: "Ulm, Germany"
