@@ -1,10 +1,10 @@
 ---
-title: "Learning Robots"
+title: "Learning Systems"
 collection: teaching
 type: "Master Project"
-permalink: /teaching/learning_robots
+permalink: /teaching/learning_Systems
 venue: "Ulm University"
-date: 2017-10-15
+date: 2014-01-01
 location: "Ulm, Germany"
 ---
 

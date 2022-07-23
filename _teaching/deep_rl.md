@@ -4,7 +4,7 @@ collection: teaching
 type: "Master Project"
 permalink: /teaching/deep_rl
 venue: "Ulm University"
-date: 2014-01-01
+date: 2021-10-15
 location: "Ulm, Germany"
 ---
 
