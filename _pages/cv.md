@@ -18,15 +18,18 @@ Education
 * 2013-2016: M.Sc. in Computer Science (Ulm University)
 	* minor in Psychology 
 	* Master Thesis in Affective Computing
-* since 2016: pursuing PhD in Machine Learning
-	* Topic: Hierarchical Models for efficient Adaptation in Machine Learning Systems
+* 2024: PhD in Machine Learning (Dr. rer. nat.)
+	* Title: Adaptive Learning Models for Information-Efficient Lifelong Machine Learning
+    * passed with the highest honours (summa cum laude)
 
 Work experience
 ======
-* Since 2016-12-015: Research Assistant at Ulm University
-  * Supervisor: Daniel A. Braun
+* since 12/2022: Senior Data Scientist at the StepStone Group
+  * Applied Research and Development at the AI Labs
+* 12/2016-11/2022: Research Assistant at Ulm University
+  * Supervisor: Prof. Dr. Dr. Daniel A. Braun
 
-* 2026-05-01 - 2016-11-30: Software Engineer at BitTwister IT, Ulm
+* 05/2016 - 11/2016: Software Engineer at BitTwister IT, Ulm
 	* Developing IT Infrastructure for Machine Learning applications
  
 Research Interests
