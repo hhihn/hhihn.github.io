@@ -2,7 +2,7 @@
 title: "Mixture-of-variational-experts for continual learning"
 collection: publications
 excerpt: 'a neural network layer implementing a mixture of experts to facilitate continual learning'
-date: 2021-01-01
+date: 2021
 venue: 'ICLR Workshop on Agent Learning in Open-Endedness'
 
 

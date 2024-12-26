@@ -2,7 +2,7 @@
 title: "An information-theoretic on-line learning principle for specialization in hierarchical decision-making systems"
 collection: publications
 excerpt: 'Specialization in machine learning for information-efficient decision-making.'
-date: 2019
+date: 2019-01-01
 venue: 'IEEE 58th Conference on Decision and Control (CDC)'
 
 ---

@@ -2,7 +2,7 @@
 title: "Hierarchically structured task-agnostic continual learning"
 collection: publications
 excerpt: 'a neural network layer implementing a mixture of experts to facilitate continual learning'
-date: 2021
+date: 2021-01-01
 venue: 'Machine Learning'
 
 
