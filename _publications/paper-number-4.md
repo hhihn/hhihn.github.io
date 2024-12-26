@@ -2,7 +2,7 @@
 title: "Hierarchical Expert Networks for Meta-Learning"
 collection: publications
 excerpt: 'Combine free-energy optimizing neural networks for efficient adaptation to facilitate meta-learning.'
-date: 2020-06-15
+date: 2020
 venue: '4th ICML Workshop on Lifelong Machine Learning'
 
 ---

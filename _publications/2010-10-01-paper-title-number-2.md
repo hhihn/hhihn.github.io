@@ -2,7 +2,7 @@
 title: "Multi-Modal Pain Intensity Assessment Based on Physiological Signals: A Deep Learning Perspective"
 collection: publications
 excerpt: 'Information-efficient learning in multi-modal pain assessment.'
-date: 2021-09-01
+date: 2021
 venue: 'Frontiers in Physiology'
 ---
 # Abstract
