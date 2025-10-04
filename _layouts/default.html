@@ -6,13 +6,56 @@
   <title>{{ page.title }} - {{ site.title }}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace }}">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <script>
+    var titleText = "Prof. Dr. rer. nat. Heinke Hihn";
+    var titleIndex = 0;
+    var direction = 1;
+
+    function animateTitle() {
+      var displayTitle = titleText.substring(0, titleIndex);
+      document.title = displayTitle + (titleIndex % 2 ? '█' : '');
+
+      titleIndex += direction;
+      if (titleIndex > titleText.length) direction = -1;
+      if (titleIndex < 0) direction = 1;
+    }
+
+    setInterval(animateTitle, 200);
+  </script>
 </head>
 <body>
 {% include loading.html %}
-<!-- Add to _layouts/default.html body -->
-<bgsound src="https://www.midiworld.com/music/stars.mid" loop="infinite">
+<!-- Add to _layouts/default.html -->
+<script>
+  var statusText = "Welcome to my research homepage! *** Check out my latest publications *** Email me at {{ site.email }} *** ";
+  var scrollPos = 0;
 
-  <!-- Modern browser fallback -->
+  function scrollStatus() {
+    scrollPos++;
+    if (scrollPos > statusText.length) scrollPos = 0;
+    var displayText = statusText.substring(scrollPos) + statusText.substring(0, scrollPos);
+    window.status = displayText.substring(0, 50) + "...";
+  }
+
+  setInterval(scrollStatus, 200);
+
+  // Fallback for browsers that hide status bar
+  if (!window.chrome) {
+    var statusBar = document.createElement('div');
+    statusBar.id = 'status-bar';
+    statusBar.style.position = 'fixed';
+    statusBar.style.bottom = '0';
+    statusBar.style.left = '0';
+    statusBar.style.right = '0';
+    statusBar.style.backgroundColor = '#000080';
+    statusBar.style.color = 'white';
+    statusBar.style.padding = '2px';
+    statusBar.style.fontSize = '12px';
+    statusBar.style.fontFamily = 'Arial';
+    statusBar.style.zIndex = '10000';
+    document.body.appendChild(statusBar);
+  }
+</script>
   <audio autoplay loop hidden>
     <source src="https://www.midiworld.com/music/stars.mid" type="audio/midi">
   </audio>
@@ -42,6 +85,12 @@
       <a href="{{ '/publications' | relative_url }}">>Publications</a><br>
       <a href="{{ '/contact' | relative_url }}">>Contact</a><br>
       <hr>
+      <!-- DIGITAL CLOCK -->
+      <hr>
+      <div style="text-align: center; font-family: 'Courier New', monospace; background: #000000; color: #00ff00; padding: 5px; margin: 10px 0; border: 1px solid #808080;">
+        <div style="font-size: 16px; letter-spacing: 2px;" id="digital-clock">00:00:00</div>
+        <div style="font-size: 10px; margin-top: 3px;">SERVER TIME</div>
+      </div>
       <div class="counter">Visitor #<span id="visitor-count">000127</span></div>
     </td>
 
@@ -103,5 +152,24 @@
 
     drawTrail();
   </script>
+<!-- Your existing content tables -->
+
+<center>
+  <p>Last updated: January 1999</p>
+  <p>
+    <a href="http://validator.w3.org/">
+      <img src="https://web.archive.org/web/19990224014445im_/http://home.netscape.com/comprod/customer_response/downloads/download_anybadge.gif" alt="Best Viewed with Any Browser" border="0">
+    </a>
+    <a href="http://www.microsoft.com/">
+      <img src="https://web.archive.org/web/19990220150718im_/http://www.microsoft.com/misc/free.gif" alt="Works Best with Microsoft Internet Explorer" border="0">
+    </a>
+    <a href="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash">
+      <img src="https://web.archive.org/web/19990224014445im_/http://www.macromedia.com/shockwave/download/buttons/get_flashplayer.gif" alt="Get Flash Player" border="0">
+    </a>
+  </p>
+  <p><a href="http://validator.w3.org/">HTML 1.0 Validated</a></p>
+  <p><small>Powered by Jekyll &amp; GitHub Pages</small></p>
+</center>
+
 </body>
 </html>
