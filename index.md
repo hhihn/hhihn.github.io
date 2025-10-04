@@ -3,24 +3,23 @@ layout: default
 title: Home
 ---
 
-## WELCOME TO MY RESEARCH HOMEPAGE!
+## Willkommen!
+Willkommen auf meiner Seite! Hier könnt ihr mehr über mich und meine Arbeit erfahren. 
 
-Hello and welcome to my homepage! I am {{ site.name }}, a researcher at {{ site.institution }}.
-
-### NEWS & UPDATES
+### Neuigkeiten
 
 {% for post in site.posts limit:5 %}
 - **{{ post.date | date: "%B %d, %Y" }}**: {{ post.title }}
   {% endfor %}
 
-### QUICK LINKS
+### Links
 
-* [Learn more about me](/about)
-* [View my research projects](/research)
-* [Browse my publications](/publications)
-* [Get in touch](/contact)
+* [Über mich](/about)
+* [Forschung](/research)
+* [Publikationen](/publications)
+* [Kontakt](/contact)
 
-### CURRENT PROJECTS
+### Aktuelle Publikationen
 
 * Project Alpha - Description here
 * Project Beta - Another description

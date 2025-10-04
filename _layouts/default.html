@@ -8,6 +8,14 @@
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>
 <body>
+{% include loading.html %}
+<!-- Add to _layouts/default.html body -->
+<bgsound src="https://www.midiworld.com/music/stars.mid" loop="infinite">
+
+  <!-- Modern browser fallback -->
+  <audio autoplay loop hidden>
+    <source src="https://www.midiworld.com/music/stars.mid" type="audio/midi">
+  </audio>
 <table border="3" width="100%">
   <tr>
     <td align="center" bgcolor="#c0c0c0">
@@ -59,5 +67,41 @@
     document.getElementById('visitor-count').textContent = count.toString().padStart(6, '0');
   });
 </script>
+  <!-- Add to _layouts/default.html -->
+  <script>
+    var trailLength = 8;
+    var trail = [];
+
+    document.addEventListener('mousemove', function(e) {
+      trail.push({x: e.clientX, y: e.clientY});
+      if (trail.length > trailLength) trail.shift();
+    });
+
+    function drawTrail() {
+      // Clear previous frames
+      var existingTrails = document.querySelectorAll('.mouse-trail');
+      existingTrails.forEach(el => el.remove());
+
+      // Draw new trail
+      for (var i = 0; i < trail.length; i++) {
+        var dot = document.createElement('div');
+        dot.className = 'mouse-trail';
+        dot.style.position = 'fixed';
+        dot.style.left = (trail[i].x - 2) + 'px';
+        dot.style.top = (trail[i].y - 2) + 'px';
+        dot.style.width = '4px';
+        dot.style.height = '4px';
+        dot.style.backgroundColor = 'yellow';
+        dot.style.borderRadius = '50%';
+        dot.style.pointerEvents = 'none';
+        dot.style.zIndex = '9999';
+        dot.style.opacity = (i / trail.length) * 0.8;
+        document.body.appendChild(dot);
+      }
+      requestAnimationFrame(drawTrail);
+    }
+
+    drawTrail();
+  </script>
 </body>
 </html>

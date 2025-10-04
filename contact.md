@@ -3,45 +3,26 @@ layout: default
 title: Contact
 ---
 
-## CONTACT INFORMATION
+## Kontakt
 
-Feel free to reach out to me through any of the following methods:
+Ihr könnt mich folgendermaßen erreichen:
 
-### EMAIL
+### E-Mail
 
 <a href="mailto:{{ site.email }}">{{ site.email }}</a>
 
-### OFFICE ADDRESS
+### Am Campus der IU
 
 {{ site.office }}  
 {{ site.institution }}  
 City, State ZIP Code
 
-### SCHEDULED MEETINGS
+### Sprechstunde
 
-I'm generally available for meetings on Tuesdays and Thursdays between 2-4 PM. Please email to schedule an appointment.
+Meine Sprechstunde für Studierende ist immer Montags 14 bis 15 Uhr. Bitte meldet euch vorher per E-Mail bei mir an.
 
-### GUESTBOOK
+### Consulting
 
-Leave me a message in my guestbook below:
-
-<form action="#" method="post">
-    <table>
-        <tr>
-            <td>Name:</td>
-            <td><input type="text" name="name" size="30"></td>
-        </tr>
-        <tr>
-            <td>Email:</td>
-            <td><input type="text" name="email" size="30"></td>
-        </tr>
-        <tr>
-            <td>Message:</td>
-            <td><textarea name="message" rows="4" cols="40"></textarea></td>
-        </tr>
-        <tr>
-            <td></td>
-            <td><input type="submit" value="Sign Guestbook"></td>
-        </tr>
-    </table>
-</form>
+Ich berate Unternehmen bei der Planung und Umsetzung von Data Science Projekten
+mit einem Fokus auf KI und Maschinelles Lernen. Gerne könnte ihr mich dazu per E-Mail
+erreichen.
