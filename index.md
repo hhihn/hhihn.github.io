@@ -12,17 +12,10 @@ Willkommen auf meiner Seite! Hier könnt ihr mehr über mich und meine Arbeit er
 - **{{ post.date | date: "%B %d, %Y" }}**: {{ post.title }}
   {% endfor %}
 
-### Links
-
-* [Über mich](/about)
-* [Forschung](/research)
-* [Publikationen](/publications)
-* [Kontakt](/contact)
-
 ### Aktuelle Publikationen
 
-* Project Alpha - Description here
-* Project Beta - Another description
-* Project Gamma - Yet another project
+* Hihn, H., Dittrich, D. A., Jeske, C., Sobral, C. C., Pais, H., & Lochmann, T. (2025). Ontology-Aligned Embeddings for Data-Driven Labour Market Analytics. SIG Knowledge Management Workshop (FG WM) at KI2025, Potsdam, Germany
+* Hihn, H., & Braun, D. A. (2024). Online continual learning through unsupervised mutual information maximization. Neurocomputing, 578, 127422.
+* Hihn, H., & Braun, D. A. (2023). Hierarchically structured task-agnostic continual learning. Machine Learning, 112(2), 655-686.
 
-*Last updated: January 1999*
+*Zuletzt aktualisiert: Januar 1999*

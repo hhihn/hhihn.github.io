@@ -4,28 +4,19 @@ title: Publications
 ---
 
 ## PUBLICATIONS
+---
+layout: archive
+title: "Publications"
+permalink: /publications/
+author_profile: true
+---
 
-### PEER-REVIEWED JOURNAL ARTICLES
-
-{% for post in site.posts %}
-{% if post.categories contains "publications" %}
-1. [{{ post.title }}]({{ post.url | relative_url }})  
-   *{{ post.authors }}*  
-   {{ post.journal }}, {{ post.date | date: "%Y" }}. [PDF]({{ post.pdf_url }})
-
+{% if author.googlescholar %}
+You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
+
+{% include base_path %}
+
+{% for post in site.publications reversed %}
+{% include archive-single.html %}
 {% endfor %}
-
-### CONFERENCE PROCEEDINGS
-
-* Conference Paper 1 (Conference Name, Year) [PDF]
-* Conference Paper 2 (Conference Name, Year) [PDF]
-
-### TECHNICAL REPORTS
-
-* Technical Report 1 (Year) [PDF]
-* Technical Report 2 (Year) [PDF]
-
-### WORKING PAPERS
-
-* Working Paper 1 (Year) [PDF]
