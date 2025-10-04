@@ -1,41 +1,89 @@
 ---
 ---
 
-/*
- *    Minimal Mistakes Jekyll Theme
- *
- *  - Michael Rose
- *  - mademistakes.com
- *  - https://twitter.com/mmistakes
- *
-*/
+  /* 90s Style CSS */
+body {
+  background-color: #000080;
+  color: #000000;
+  font-family: "Comic Sans MS", "Times New Roman", serif;
+  margin: 20px;
+  line-height: 1.4;
+}
 
-@import "vendor/breakpoint/breakpoint"; // media query mixins
-@import "variables";
-@import "mixins";
-@import "vendor/susy/susy";
+table {
+  border-collapse: collapse;
+  background-color: #ffffff;
+}
 
-@import "reset";
-@import "base";
+td {
+  padding: 15px;
+  color: #000000;
+}
 
-@import "utilities";
-@import "animations";
-@import "tables";
-@import "buttons";
-@import "notices";
-@import "masthead";
-@import "navigation";
-@import "footer";
-@import "syntax";
+h1 {
+  color: #ffff00;
+  text-align: center;
+  font-size: 28px;
+  background-color: #000080;
+  margin: 0;
+  padding: 10px;
+}
 
-@import "forms";
+h2 {
+  color: #ff0000;
+  background-color: #000080;
+  padding: 8px;
+  margin-top: 20px;
+  border: 2px solid #c0c0c0;
+}
 
-@import "page";
-@import "archive";
-@import "sidebar";
+h3 {
+  color: #0000ff;
+}
 
-@import "vendor/font-awesome/fontawesome";
-@import "vendor/font-awesome/solid";
-@import "vendor/font-awesome/brands";
-@import "vendor/magnific-popup/magnific-popup";
-@import "print";
+a:link {
+  color: #0000ff;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #800080;
+}
+
+a:hover {
+  color: #ff0000;
+  text-decoration: underline;
+}
+
+.blink {
+  animation: blinker 1s linear infinite;
+  color: #ff0000;
+  font-weight: bold;
+}
+
+@keyframes blinker {
+  50% { opacity: 0; }
+}
+
+.counter {
+  text-align: center;
+  font-size: 12px;
+  color: #000000;
+}
+
+.content {
+  color: #000000;
+  padding: 10px;
+}
+
+.content ul, .content ol {
+  margin-left: 20px;
+}
+
+.content li {
+  margin-bottom: 5px;
+}
+
+hr {
+  border: 1px solid #c0c0c0;
+}

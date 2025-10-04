@@ -1,31 +1,63 @@
----
-layout: compress
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} - {{ site.title }}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace }}">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
+<table border="3" width="100%">
+  <tr>
+    <td align="center" bgcolor="#c0c0c0">
+      <h1>{{ site.title }}</h1>
+      {% if page.title != "Home" %}
+      <h2>{{ page.title }}</h2>
+      {% endif %}
+      <p class="blink">*** UNDER CONSTRUCTION ***</p>
+      <img src="https://www.animatedimages.org/data/media/10/ban-animated-image-0023.gif" alt="Under Construction" width="100">
+    </td>
+  </tr>
+</table>
 
-{% include base_path %}
+<br>
 
-<!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
+<table border="2" width="100%">
+  <tr>
+    <td width="20%" valign="top" bgcolor="#c0c0c0">
+      <!-- Navigation -->
+      <h2>NAVIGATION</h2>
+      <a href="{{ '/' | relative_url }}">>Home</a><br>
+      <a href="{{ '/about' | relative_url }}">>About Me</a><br>
+      <a href="{{ '/research' | relative_url }}">>Research</a><br>
+      <a href="{{ '/publications' | relative_url }}">>Publications</a><br>
+      <a href="{{ '/contact' | relative_url }}">>Contact</a><br>
+      <hr>
+      <div class="counter">Visitor #<span id="visitor-count">000127</span></div>
+    </td>
 
-  <body>
+    <td width="80%" bgcolor="#ffffff">
+      <!-- Main Content -->
+      <div class="content">
+        {{ content }}
+      </div>
+    </td>
+  </tr>
+</table>
 
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
+<center>
+  <p>Last updated: January 1999</p>
+  <p><a href="http://validator.w3.org/">HTML 1.0 Validated</a></p>
+  <p><small>Powered by Jekyll &amp; GitHub Pages</small></p>
+</center>
 
-    {{ content }}
-
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
-    </div>
-
-    {% include scripts.html %}
-
-  </body>
+<script>
+  // Simple counter simulation
+  document.addEventListener('DOMContentLoaded', function() {
+    const count = Math.floor(Math.random() * 1000) + 500;
+    document.getElementById('visitor-count').textContent = count.toString().padStart(6, '0');
+  });
+</script>
+</body>
 </html>
