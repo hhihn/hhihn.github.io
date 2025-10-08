@@ -1,10 +1,8 @@
 ---
 ---
-  /* 90s Style CSS */
-  /* Palette: #920044 (Deep Red-Purple), #00BF06 (Bright Green), #B0D800 (Lime Yellow), #E91B00 (Bright Red), #C20300 (Dark Red) */
-
+  /* 90s Style CSS - Updated with Consistent Color Palette */
 body {
-  background-color: #920044;  /* Deep Red-Purple - Base Color */
+  background-color: #000080;  /* Navy Blue - Base Color */
   color: #000000;             /* Black */
   font-family: "Comic Sans MS", "Times New Roman", serif;
   margin: 20px;
@@ -14,7 +12,7 @@ body {
 table {
   border-collapse: collapse;
   background-color: #ffffff;  /* White */
-  border: 3px ridge #B0D800;  /* Lime Yellow - 3D border effect */
+  border: 3px ridge #c0c0c0;  /* Silver - 3D border effect */
 }
 
 td {
@@ -24,50 +22,50 @@ td {
 }
 
 h1 {
-  color: #B0D800;             /* Lime Yellow */
+  color: #ffff00;             /* Bright Yellow */
   text-align: center;
   font-size: 28px;
-  background-color: #920044;  /* Deep Red-Purple */
+  background-color: #000080;  /* Navy Blue */
   margin: 0;
   padding: 10px;
-  border: 2px solid #E91B00;  /* Bright Red */
+  border: 2px solid #ff0000;  /* Hot Red */
 }
 
 h2 {
-  color: #B0D800;             /* Lime Yellow */
-  background-color: #920044;  /* Deep Red-Purple */
+  color: #ffff00;             /* Bright Yellow */
+  background-color: #000080;  /* Navy Blue */
   padding: 8px;
   margin-top: 20px;
-  border: 2px solid #B0D800;  /* Lime Yellow */
+  border: 2px solid #c0c0c0;  /* Silver */
 }
 
 h3 {
-  color: #00BF06;             /* Bright Green */
+  color: #0000ff;             /* Blue */
 }
 
 a:link {
-  color: #00BF06;             /* Bright Green */
+  color: #0000ff;             /* Blue */
   text-decoration: none;
 }
 
 a:visited {
-  color: #C20300;             /* Dark Red */
+  color: #800080;             /* Purple */
   text-decoration: none;
 }
 
 a:hover {
-  color: #E91B00;             /* Bright Red */
+  color: #ff0000;             /* Hot Red */
   text-decoration: underline;
-  background-color: #B0D800;  /* Lime Yellow */
+  background-color: #ffff00;  /* Bright Yellow */
 }
 
 a:active {
-  color: #E91B00;             /* Bright Red */
+  color: #ff00ff;             /* Magenta */
 }
 
 .blink {
   animation: blinker 1s linear infinite;
-  color: #E91B00;             /* Bright Red */
+  color: #ff0000;             /* Hot Red */
   font-weight: bold;
 }
 
@@ -79,11 +77,9 @@ a:active {
   text-align: center;
   font-size: 12px;
   color: #000000;             /* Black */
-  background-color: #B0D800;  /* Lime Yellow */
+  background-color: #c0c0c0;  /* Silver */
   padding: 5px;
-  border: 1px inset #00BF06;  /* Bright Green */
-  color: #920044;             /* Deep Red-Purple text */
-  font-weight: bold;
+  border: 1px inset #808080;  /* Gray */
 }
 
 .content {
@@ -101,31 +97,31 @@ a:active {
 }
 
 hr {
-  border: 1px solid #B0D800;  /* Lime Yellow */
+  border: 1px solid #c0c0c0;  /* Silver */
 }
 
 /* Enhanced hover effects using palette */
 a:hover {
-  color: #E91B00 !important;  /* Bright Red */
+  color: #ff0000 !important;  /* Hot Red */
   text-decoration: underline !important;
-  background-color: #B0D800 !important; /* Lime Yellow */
+  background-color: #ffff00 !important; /* Bright Yellow */
 }
 
 /* Status bar style */
 .status-bar {
   background-color: #000000;  /* Black */
-  color: #00BF06;             /* Bright Green */
+  color: #00ff00;             /* Electric Green */
   padding: 3px;
   font-family: "Courier New", monospace;
   text-align: center;
-  border: 1px solid #B0D800; /* Lime Yellow */
+  border: 1px solid #c0c0c0; /* Silver */
 }
 
 /* Construction zone style */
 .construction {
-  color: #E91B00;             /* Bright Red */
-  background-color: #B0D800;  /* Lime Yellow */
-  border: 2px dashed #E91B00; /* Bright Red */
+  color: #ff0000;             /* Hot Red */
+  background-color: #ffff00;  /* Bright Yellow */
+  border: 2px dashed #ff0000; /* Hot Red */
   padding: 10px;
   text-align: center;
   font-weight: bold;
@@ -134,56 +130,54 @@ a:hover {
 /* Terminal/console style */
 .terminal {
   background-color: #000000;  /* Black */
-  color: #00BF06;             /* Bright Green */
+  color: #00ff00;             /* Electric Green */
   font-family: "Courier New", monospace;
   padding: 10px;
-  border: 2px solid #B0D800;  /* Lime Yellow */
+  border: 2px solid #c0c0c0;  /* Silver */
 }
 
 /* Highlight style */
 .highlight {
-  background-color: #B0D800;  /* Lime Yellow */
-  color: #920044;             /* Deep Red-Purple */
+  background-color: #ffff00;  /* Bright Yellow */
+  color: #000000;             /* Black */
+}
+
+/* Marquee links using palette colors */
+.marquee-link {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #0000ff;             /* Blue */
+}
+
+.marquee-link span {
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 5s linear infinite;
+  color: #ff0000;             /* Hot Red */
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(-100%); }
 }
 
 /* Guestbook entry style */
 .guestbook-entry {
-  border: 2px ridge #B0D800;  /* Lime Yellow */
+  border: 2px ridge #c0c0c0;  /* Silver */
   background-color: #ffffff;  /* White */
   padding: 10px;
   margin: 5px 0;
 }
 
 .guestbook-entry b {
-  color: #E91B00;             /* Bright Red */
+  color: #ff0000;             /* Hot Red */
 }
 
-.guestbook-entry font[color="#00BF06"] {
-  color: #00BF06;             /* Bright Green */
+.guestbook-entry font[color="#0000ff"] {
+  color: #0000ff;             /* Blue */
 }
 
 .guestbook-entry font[size="2"] {
-  color: #C20300;             /* Dark Red */
-}
-
-/* Navigation links with consistent styling */
-.navigation-links {
-  color: #00BF06;             /* Bright Green */
-}
-
-.navigation-links a:hover {
-  color: #E91B00;             /* Bright Red */
-  background-color: #B0D800;  /* Lime Yellow */
-}
-
-/* Special alert/warning text */
-.alert-text {
-  color: #E91B00;             /* Bright Red */
-  font-weight: bold;
-}
-
-/* Visited link alternative style */
-.visited-link {
-  color: #C20300;             /* Dark Red */
-  text-decoration: underline;
+  color: #808080;             /* Gray */
 }
